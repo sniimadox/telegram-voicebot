@@ -4,9 +4,9 @@ from pytgcalls.types import Update
 from pytgcalls.types.stream import StreamAudioEnded
 import os, asyncio
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("23966247"))
+API_HASH = os.environ.get("b3f9431e36fb96f48dadf852666a13f6")
+BOT_TOKEN = os.environ.get("8092845450:AAEpGXdiMZBoR0gC_-gu3-r7Owfrbjc-Jxg")
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 call = PyTgCalls(app)
